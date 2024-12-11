@@ -1,14 +1,13 @@
 <a id="readme-top"></a>
 
-
-
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTcuNzg3NTA5OTE4MjEyOSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDE1Ny43ODc1MDk5MTgyMTI5IDM1Ij48cmVjdCB3aWR0aD0iMTA2LjYyNTAwNzYyOTM5NDUzIiBoZWlnaHQ9IjM1IiBmaWxsPSIjNGE0YTRhIi8+PHJlY3QgeD0iMTA2LjYyNTAwNzYyOTM5NDUzIiB3aWR0aD0iNTEuMTYyNTAyMjg4ODE4MzYiIGhlaWdodD0iMzUiIGZpbGw9IiMzNTM1YTAiLz48dGV4dCB4PSI1My4zMTI1MDM4MTQ2OTcyNjYiIHk9IjIxLjUiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSInUm9ib3RvJywgc2Fucy1zZXJpZiIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjIiPk1BREUgV0lUSDwvdGV4dD48dGV4dCB4PSIxMzIuMjA2MjU4NzczODAzNyIgeT0iMjEuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidNb250c2VycmF0Jywgc2Fucy1zZXJpZiIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPkMrKzwvdGV4dD48L3N2Zz4=)](https://forthebadge.com)
+[![CI](https://github.com/athityakumar/colorls/actions/workflows/ruby.yml/badge.svg)](https://github.com/KirishimaHikaru)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -39,6 +38,7 @@
       <a href="#about-the-project">About The Application</a>
       <ul>
         <li><a href="#feature">Feature</a></li>
+        <li><a href="#applied-concept">Applied Concept</a></li>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#made-with">Made With</a></li>
       </ul>
@@ -66,30 +66,39 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Application
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+# Deskripsi Aplikasi Manajemen Toko
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Aplikasi Manajemen Toko adalah solusi terpadu yang dirancang untuk mempermudah pengelolaan operasional toko, termasuk manajemen gudang stok, sistem kasir, dan interaksi dengan pembeli. Dengan fitur `manajemen gudang stok`, admin gudang dapat dengan mudah melacak dan mengelola inventaris produk, memastikan ketersediaan barang, serta mengatur kategori produk untuk memudahkan pencarian. `Sistem kasir` yang intuitif memungkinkan transaksi penjualan dilakukan dengan cepat dan efisien, termasuk penghitungan total belanja, pemrosesan pembayaran, dan pencetakan struk. Aplikasi ini dirancang untuk meningkatkan produktivitas dan efisiensi operasional toko, sehingga pemilik bisnis dapat fokus pada pengembangan usaha.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Selain itu, aplikasi ini juga menyediakan `antarmuka pengguna yang lumayan ramah bagi pembeli`, memungkinkan mereka untuk menjelajahi produk yang tersedia, melakukan pemesanan ke dalam keranjang, dan memantau status pesanan mereka. Aplikasi Manajemen Toko tidak hanya meningkatkan pengalaman berbelanja bagi pelanggan tetapi juga memberikan alat manajemen yang berguna bagi pemilik toko untuk mengatur ketersediaan barang. Dengan demikian, aplikasi ini menjadi solusi komprehensif untuk bisnis ritel khususnya Konde Mart yang ingin meningkatkan efisiensi dan kepuasan pelanggan.
 
-Use the `BLANK_README.md` to get started.
+<p align="right"><a href="#readme-top">-> back to top</a></p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Feature
 
+* 3 in 1 App (Admin, Kasir, dan User)
+* Hak admin: Mendata stok barang, menambah stok, dan melihat status admin yang aktif.
+* Hak Kasir: Menyetujui dan menerima pembelian dari user serta mencetak struk belanja.
+* Hak User : Memilih barang dan menambahkannya ke keranjang, lalu checkout.
 
+<p align="right"><a href="#readme-top">-> back to top</a></p>
+
+### Applied Concept
+* Struktur Data menggunakan Array Multidimensi
+* FIFO diterapkan untuk bla
+* LIFO diterapkan pada
+* QUEUE
+* TREE
+
+<p align="right"><a href="#readme-top">-> back to top</a></p>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
+* [![CPP][cplusplus.com]][CPP-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -98,8 +107,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">-> back to top</a></p>
 
+
+### Made By
+
+* Made BY LOVE
+
+<p align="right"><a href="#readme-top">-> back to top</a></p>
 
 
 <!-- GETTING STARTED -->

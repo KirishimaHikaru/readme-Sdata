@@ -36,6 +36,7 @@
     <li>
       <a href="#about-the-project">About The Application</a>
       <ul>
+        <li><a href="#description">Description</a></li>
         <li><a href="#feature">Feature</a></li>
         <li><a href="#applied-concept">Applied Concept</a></li>
         <li><a href="#built-with">Built With</a></li>
@@ -67,9 +68,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Application
 
-<center>![Konde Management App Retail](https://github.com/KirishimaHikaru/readme-Sdata/blob/main/konde.png)</center>
+![Konde Management App Retail](https://github.com/KirishimaHikaru/readme-Sdata/blob/main/konde.png)
 
-# Deskripsi Aplikasi Manajemen Toko
+### Deskripsi Aplikasi Manajemen Toko
 
 Aplikasi Manajemen Toko adalah solusi terpadu yang dirancang untuk mempermudah pengelolaan operasional toko, termasuk manajemen gudang stok, sistem kasir, dan interaksi dengan pembeli. Dengan fitur `manajemen gudang stok`, admin gudang dapat dengan mudah melacak dan mengelola inventaris produk, memastikan ketersediaan barang, serta mengatur kategori produk untuk memudahkan pencarian. `Sistem kasir` yang intuitif memungkinkan transaksi penjualan dilakukan dengan cepat dan efisien, termasuk penghitungan total belanja, pemrosesan pembayaran, dan pencetakan struk. Aplikasi ini dirancang untuk meningkatkan produktivitas dan efisiensi operasional toko, sehingga pemilik bisnis dapat fokus pada pengembangan usaha.
 

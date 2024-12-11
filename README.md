@@ -67,7 +67,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Application
 
-[![Konde Management App Retail][product-screenshot]]([konde.png](https://github.com/KirishimaHikaru/readme-Sdata/blob/main/konde.png))
+[![Konde Management App Retail](https://github.com/KirishimaHikaru/readme-Sdata/blob/main/konde.png)
 
 # Deskripsi Aplikasi Manajemen Toko
 

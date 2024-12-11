@@ -6,14 +6,13 @@
 [![Issues][issues-shield]][issues-url]
 [![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTcuNzg3NTA5OTE4MjEyOSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDE1Ny43ODc1MDk5MTgyMTI5IDM1Ij48cmVjdCB3aWR0aD0iMTA2LjYyNTAwNzYyOTM5NDUzIiBoZWlnaHQ9IjM1IiBmaWxsPSIjNGE0YTRhIi8+PHJlY3QgeD0iMTA2LjYyNTAwNzYyOTM5NDUzIiB3aWR0aD0iNTEuMTYyNTAyMjg4ODE4MzYiIGhlaWdodD0iMzUiIGZpbGw9IiMzNTM1YTAiLz48dGV4dCB4PSI1My4zMTI1MDM4MTQ2OTcyNjYiIHk9IjIxLjUiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSInUm9ib3RvJywgc2Fucy1zZXJpZiIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjIiPk1BREUgV0lUSDwvdGV4dD48dGV4dCB4PSIxMzIuMjA2MjU4NzczODAzNyIgeT0iMjEuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidNb250c2VycmF0Jywgc2Fucy1zZXJpZiIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjIiPkMrKzwvdGV4dD48L3N2Zz4=)](https://forthebadge.com)
 [![CI](https://github.com/athityakumar/colorls/actions/workflows/ruby.yml/badge.svg)](https://github.com/KirishimaHikaru)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/KirishimaHikaru">
+    <img src="konde.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">KONDE MART ADMIN APP</h3>

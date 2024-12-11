@@ -67,7 +67,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Application
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Konde Management App Retail][product-screenshot]](konde.png)
 
 # Deskripsi Aplikasi Manajemen Toko
 

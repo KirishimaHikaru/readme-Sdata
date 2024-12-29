@@ -120,39 +120,33 @@ Selain itu, aplikasi ini juga menyediakan `antarmuka pengguna yang lumayan ramah
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Bagian ini membantu Anda memulai dengan Aplikasi Manajemen Toko kami.
+Ikuti langkah-langkah di bawah ini untuk menginstal, menjalankan, dan mulai menggunakan aplikasi ini.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Daftar perangkat lunak, dependensi, atau lingkungan yang diperlukan sebelum memulai, seperti:
+* Sistem Operasi berbasis Windows 7, 8, 10 atau yang terbaru.
   ```sh
   npm install npm@latest -g
   ```
+* Aplikasi CLI (_Command Line Interface_) seperti Command Prompt atau Shell.
+* File .EXE yang dijalankan (dapat di-download di bagian bawah).
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
+Di bawah ini adalah cara menginstall aplikasi Manajemen Toko kami:
+1. Dapatkan aplikasi melalui _link_ berikut: [Github Kiki](https://github.com/rifqichusaini/TA-SDATA-KEL7)
+2. Cari file .EXE yang berhasil di-download.
+3. Klik kanan pada aplikasinya.
+4. Pilih menu `Copy as path` atau tekan `CTRL+SHIFT+C`.
+5. Buka Aplikasi CLI yang sudah ada (untuk CMD: tekan `Windows+R` lalu ketik `cmd`).
+6. Langsung paste _path_ yang tadi di-copy, bisa dengan _shortcut_ `CTRL+V`.
+7. Atau pada umumnya _path_ akan berisi text ini:
+   ```cmd
+   "C:\Users\Downloads\NamaApp.exe"
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+8. Program akan langsung terbuka dan siap digunakan!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

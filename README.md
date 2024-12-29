@@ -166,7 +166,7 @@ Langkah yang dapat dilakukan untuk penggunaan pertama kali adalah sign-up. Dafta
 
 #### 2. Sign-IN (Customer)
 Selanjutnya setelah akun terdaftar adalah Sign-in/Log-in. Pilihlah menu Sign-in untuk masuk dengan memasukkan username dan password yang telah dibuat. Tampilan awal halaman customer adalah pilihan menu jika admin sudah menyiapkan data gudang dan kasir. Jika belum, maka tampilan awalnya adalah berupa informasi bahwa database barang masih kosong dan customer diminta untuk menunggu admin mengisi database barang terlebih dahulu.
-<p align="left">(<a href="#menu customer">Jika database sudah terisi?</a>)</p>
+<p align="left">(<a href="#menu-customer">Jika database sudah terisi?</a>)</p>
 
 #### 3. Sign-UP (Admin)
 Untuk mendaftar sebagai admin, user tidak perlu memilih menu sign-up karena kami sudah membuatkan otorisasi khusus dengan username= `admin` dan password= `pass`.
@@ -185,7 +185,7 @@ Daftarkan seseorang sebagai kasir untuk mengakses hak penjualan (_check-out_). P
 
 #### 5. Sign-IN (Kasir)
 Gunakan username dan password khsusus `kasir` yang telah terdaftar untuk melihat antrian customer dan menerima daftar belanjaannya. Lakukan _check-out_ pada tiap barang dan tiap customer untuk menghapus list antrian. Tampilan yang akan muncul jika database belum diisi akan sama dengan customer (menunggu admin untuk mengisi database barang di gudang). Jika sudah terisi maka silakan ke menu berikut...
-<p align="left">(<a href="#menu kasir">Jika database sudah terisi?</a>)</p>
+<p align="left">(<a href="#menu-kasir">Jika database sudah terisi?</a>)</p>
 
 #### Menu Customer
 Jika database barang di gudang sudah terisi lengkap dan siap dibeli, maka tampilan awal halaman customer akan menjadi pilihan menu berikut:

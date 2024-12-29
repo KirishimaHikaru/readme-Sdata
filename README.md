@@ -161,17 +161,17 @@ Aplikasi ini digunakan untuk mengatur Toko dari sistem gudang, kasir, sampai pem
 
 Untuk menu paling awal, aplikasi akan menampilkan halaman otorisasi user (sign-in dan sign-up) yang dapat dipilih. Apakah user sudah memiliki otorisasi penggunaan? Hak admin, kasir, atau pembeli?
 
-# 1. Sign-UP (Customer)
+#### 1. Sign-UP (Customer)
 Langkah yang dapat dilakukan untuk penggunaan pertama kali adalah sign-up. Daftarkan diri anda menggunakan Nama Lengkap sesuai KTP dan masukkan pilihan username serta password. Username dan password inilah yang nantinya akan digunakan untuk Sign-in.
 
-# 2. Sign-IN (Customer)
+#### 2. Sign-IN (Customer)
 Selanjutnya setelah akun terdaftar adalah Sign-in/Log-in. Pilihlah menu Sign-in untuk masuk dengan memasukkan username dan password yang telah dibuat. Tampilan awal halaman customer adalah pilihan menu jika admin sudah menyiapkan data gudang dan kasir. Jika belum, maka tampilan awalnya adalah berupa informasi bahwa database barang masih kosong dan customer diminta untuk menunggu admin mengisi database barang terlebih dahulu.
-<p align="left">(<a href="#isFilled">Jika database sudah terisi?</a>)</p>
+<p align="left">(<a href="#menu customer">Jika database sudah terisi?</a>)</p>
 
-# 3. Sign-UP (Admin)
+#### 3. Sign-UP (Admin)
 Untuk mendaftar sebagai admin, user tidak perlu memilih menu sign-up karena kami sudah membuatkan otorisasi khusus dengan username= `admin` dan password= `pass`.
 
-# 4. Sign-IN (Admin)
+#### 4. Sign-IN (Admin)
 Masuklah sebagai admin dengan akses otorisasi di atas untuk mengisi database barang di gudang! Menu berikut akan tersedia:
   1. Tambah Barang
   2. Tambah Katgori
@@ -180,29 +180,41 @@ Masuklah sebagai admin dengan akses otorisasi di atas untuk mengisi database bar
   5. List/Tampilkan Daftar Barang
   6. List/Tampilkan Kategori yang tersedia
 
-# 4. Sign-UP (Kasir)
+#### 4. Sign-UP (Kasir)
+Daftarkan seseorang sebagai kasir untuk mengakses hak penjualan (_check-out_). Pilih menu Sign-Up dan daftarkan nama, username, dan password. Pastikan username menggunakan kata kunci `kasir` untuk mendapatkan otorisasi akses sebagai kasir.
 
-# 5. Sign-IN (Kasir)
+#### 5. Sign-IN (Kasir)
+Gunakan username dan password khsusus `kasir` yang telah terdaftar untuk melihat antrian customer dan menerima daftar belanjaannya. Lakukan _check-out_ pada tiap barang dan tiap customer untuk menghapus list antrian. Tampilan yang akan muncul jika database belum diisi akan sama dengan customer (menunggu admin untuk mengisi database barang di gudang). Jika sudah terisi maka silakan ke menu berikut...
+<p align="left">(<a href="#menu kasir">Jika database sudah terisi?</a>)</p>
 
-# isFilled
-Jika sudah terisi maka...
+#### Menu Customer
+Jika database barang di gudang sudah terisi lengkap dan siap dibeli, maka tampilan awal halaman customer akan menjadi pilihan menu berikut:
+  1. Tambah barang ke keranjang.
+  2. Hapus barang dari keranjang
+  3. Edit jumlah barang dari keranjang
+  4. Lihat keranjang
+  5. Lihat list barang yang tersedia di toko
+  6. Lihat histori transaks
+  7. Checkout (untuk kemudian dikonfirmasi oleh kasir)
+
+#### Menu Kasir
+Jika database barang di gudang sudah terisi dan antrian customer sudah ada yang mendaftar, maka tampilan awal halaman kasir akan menjadi pilihan menu berikut:
+  1. Lihat antrian yang ada.
+  2. Layani antrian
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+- [x] Add Menu Features
+- [x] Add LIFO and FIFO
+- [x] Multi-interface Support
+    - [x] Admin
+    - [x] Kasir
+    - [x] Customer
+- [x] Add Queue
+- [x] Add Priority Queue
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

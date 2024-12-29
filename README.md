@@ -92,6 +92,7 @@ Selain itu, aplikasi ini juga menyediakan `antarmuka pengguna yang lumayan ramah
 * FIFO diterapkan untuk bla
 * LIFO diterapkan pada
 * QUEUE
+* PRIORITY QUEUE
 * TREE
 
 <p align="right"><a href="#readme-top">-> back to top</a></p>
@@ -127,9 +128,6 @@ Ikuti langkah-langkah di bawah ini untuk menginstal, menjalankan, dan mulai meng
 
 Daftar perangkat lunak, dependensi, atau lingkungan yang diperlukan sebelum memulai, seperti:
 * Sistem Operasi berbasis Windows 7, 8, 10 atau yang terbaru.
-  ```sh
-  npm install npm@latest -g
-  ```
 * Aplikasi CLI (_Command Line Interface_) seperti Command Prompt atau Shell.
 * File .EXE yang dijalankan (dapat di-download di bagian bawah).
 
@@ -141,12 +139,13 @@ Di bawah ini adalah cara menginstall aplikasi Manajemen Toko kami:
 3. Klik kanan pada aplikasinya.
 4. Pilih menu `Copy as path` atau tekan `CTRL+SHIFT+C`.
 5. Buka Aplikasi CLI yang sudah ada (untuk CMD: tekan `Windows+R` lalu ketik `cmd`).
-6. Langsung paste _path_ yang tadi di-copy, bisa dengan _shortcut_ `CTRL+V`.
-7. Atau pada umumnya _path_ akan berisi text ini:
+6. Pada umumnya _path_ akan berisi text ini:
    ```cmd
    "C:\Users\Downloads\NamaApp.exe"
    ```
-8. Program akan langsung terbuka dan siap digunakan!
+7. Langsung paste _path_ yang tadi di-copy, bisa dengan _shortcut_ `CTRL+V`.
+9. Komputer mungkin akan mendeteksi Aplikasi ini sebagai malware karena tidak terdaftar secara resmi. Abaikan saja peringatannya dan pilih `Tetap Jalankan`.
+10. Program akan langsung terbuka dan siap digunakan!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,9 +154,38 @@ Di bawah ini adalah cara menginstall aplikasi Manajemen Toko kami:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Aplikasi ini digunakan untuk mengatur Toko dari sistem gudang, kasir, sampai pembeli. Dari kelengkapan fitur yang ada, kami membagi tiga _interface_ untuk masing-masing otorisasi user. _Interface_ yang ada diantaranya:
+1. _Interface_ Admin.
+2. _Interface_ Kasir.
+3. _Interface_ Pembeli/Pelanggan.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Untuk menu paling awal, aplikasi akan menampilkan halaman otorisasi user (sign-in dan sign-up) yang dapat dipilih. Apakah user sudah memiliki otorisasi penggunaan? Hak admin, kasir, atau pembeli?
+
+# 1. Sign-UP (Customer)
+Langkah yang dapat dilakukan untuk penggunaan pertama kali adalah sign-up. Daftarkan diri anda menggunakan Nama Lengkap sesuai KTP dan masukkan pilihan username serta password. Username dan password inilah yang nantinya akan digunakan untuk Sign-in.
+
+# 2. Sign-IN (Customer)
+Selanjutnya setelah akun terdaftar adalah Sign-in/Log-in. Pilihlah menu Sign-in untuk masuk dengan memasukkan username dan password yang telah dibuat. Tampilan awal halaman customer adalah pilihan menu jika admin sudah menyiapkan data gudang dan kasir. Jika belum, maka tampilan awalnya adalah berupa informasi bahwa database barang masih kosong dan customer diminta untuk menunggu admin mengisi database barang terlebih dahulu.
+<p align="left">(<a href="#isFilled">Jika database sudah terisi?</a>)</p>
+
+# 3. Sign-UP (Admin)
+Untuk mendaftar sebagai admin, user tidak perlu memilih menu sign-up karena kami sudah membuatkan otorisasi khusus dengan username= `admin` dan password= `pass`.
+
+# 4. Sign-IN (Admin)
+Masuklah sebagai admin dengan akses otorisasi di atas untuk mengisi database barang di gudang! Menu berikut akan tersedia:
+  1. Tambah Barang
+  2. Tambah Katgori
+  3. Hapus Barang
+  4. Update Barang
+  5. List/Tampilkan Daftar Barang
+  6. List/Tampilkan Kategori yang tersedia
+
+# 4. Sign-UP (Kasir)
+
+# 5. Sign-IN (Kasir)
+
+# isFilled
+Jika sudah terisi maka...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
